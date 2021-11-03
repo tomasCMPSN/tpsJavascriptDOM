@@ -7,9 +7,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- falta data -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Practica DOM</title>
 </head>
 
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/tp1.js"></script>
+<body>
+  <main>
+    <div class="d-flex justify-content-center py-3">
+      <button class="btn btn-primary" onclick="comenzar()" id="botonComenzar">Comenzar</button>
+    </div>
+    <div class="marginGrande" id="formulario">
+      <p>Adivine un número del 1 al 10</p>
+      <form>
+        <label for="intento" class="form-label">Número</label>
+        <input type="number" class="form-control" id="intento">
+        <button type="submit" class="btn btn-primary my-3" onclick="resultado()">Enviar</button>
+      </form>
+    </div>
+  </main>
+</body>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/tp1.js"></script>
+
 </html>
