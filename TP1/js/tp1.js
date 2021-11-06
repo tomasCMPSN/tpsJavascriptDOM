@@ -1,20 +1,19 @@
+let numero = Math.floor(Math.random() * (11 - 1) + 1)
+
 function comenzar() {
     let botonComenzar = document.querySelector(`#botonComenzar`);
-    let numeroMagico = Math.floor(Math.random() * (11 - 1) + 1);
     botonComenzar.className = `btn btn-primary disabled`;
-    console.log(numeroMagico);
-    return numeroMagico;
-
+    console.log(numero)
 }
 
 
 function resultado() {
     let intento = document.querySelector("#intento").value;
-    if (intento == comenzar()) {
+    if (intento == numero) {
         alert("buena");
-    }else if(intento <= comenzar()){
+    } else if (intento <= numero) {
         alert("muy abajo");
-    }else{
+    } else {
         alert("muy arriba");
     }
 }
