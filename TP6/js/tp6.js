@@ -21,7 +21,7 @@ function tick(){
 	timeDisplay.innerHTML = message;
 
 	if (secondsRemaining === 0){
-		alert("Done!");
+		alert("¡Listo!");
 		clearInterval(intervalHandle);
 		resetPage();
 	}
@@ -39,7 +39,7 @@ function startCountdown(){
 	var minutes = document.getElementById("minutes").value;
 	
 	if (isNaN(minutes)){
-		alert("Please enter a number");
+		alert("Por favor, ingrese un número");
 		return;
 	}
 
