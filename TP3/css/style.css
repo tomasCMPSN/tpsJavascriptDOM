@@ -1,0 +1,12 @@
+.principal{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.borderVerde{
+    border: 1px solid green;
+}
+
+.borderAzul{
+    border: 1px solid blue;
+}

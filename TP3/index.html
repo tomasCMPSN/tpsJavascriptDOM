@@ -7,9 +7,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- falta data -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Practica DOM</title>
 </head>
 
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/tp1.js"></script>
+<main>
+  <section class="container principal">
+    <form class="borderVerde p-2">
+      <div class="my-3">
+        <label for="tarea" class="form-label">Agregar tarea</label>
+        <input type="text" class="form-control" id="tarea">
+      </div>
+      <button type="button" class="btn btn-success" onclick="agregarTarea()">Agregar</button>
+    </form>
+  </section>
+    <section class="container principal" id="lista">
+
+    </section>
+</main>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/tp3.js"></script>
+
 </html>
