@@ -60,7 +60,7 @@ window.onload = function(){
 	
 	var startButton = document.createElement("input");
 	startButton.setAttribute("type","button");
-	startButton.setAttribute("value","Start Countdown");
+	startButton.setAttribute("value","Iniciar");
 	startButton.onclick = function(){
 		startCountdown();
 	};
